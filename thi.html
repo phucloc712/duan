@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Khóa học Lập trình Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Lịch học</a></li>
+            <li><a href="#">Đăng kí</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="left-column">
+            <h2>Giới thiệu khóa học</h2>
+            <p>Khóa học lập trình Web tại FPT cung cấp kiến thức từ cơ bản đến nâng cao về HTML, CSS, và JavaScript. Sinh viên sẽ học cách xây dựng giao diện web và thân thiện với người dùng.</p>
+            <p>Chương trình học được áp dụng thiết kế thực tế, giúp sinh viên phát triển kỹ năng làm việc nhóm và tư duy sáng tạo hơn, Đăng kí ngay hôm nay.</p>
+            <img src="img/download.png" alt="Hình ảnh minh họa khóa học" style="width: 100%; height:auto; ">
+        </div>
+        <div class="right-column">
+            <h2>Đăng ký khóa học</h2>
+            <form action="#" method="post">
+                <label for="name">Họ tên:</label>
+                <input type="text" id="name" name="name" placeholder="Nhập họ tên" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Nhập email" required>
+                
+                <label for="major">Ngành học:</label>
+                <select id="major" name="major" required>
+                    <option value="CNTT">CNTT</option>
+                    <option value="Dohoa">Thiết kế đồ họa</option>
+                    <option value="Quantrikhachsan">Quản trị khách sạn</option>
+                    <option value="Makerting">Makerting</option>
+                </select>
+                
+                <button type="submit" > Đăng ký</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; FPT Polytechnic - ©2025 – Tôn Đặng Phúc Lộc</p>
+    </footer>
+</body>
+</html>

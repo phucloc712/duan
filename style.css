@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey ; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+button:hover{
+    background-color: orange;
+    color: blue
+}
+nav:hover{
+    background-color: rgb(233, 160, 221);
+    color: black
+}
+
+nav {
+    background-color: rgb(83, 80, 80);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555555;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #eee9e9;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+    main {
+        display: flex;
+        gap: 20px;
+    }
+    .left-column {
+        width: 70%;
+    }
+    .right-column {
+        width: 30%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    form input, form select, form button {
+        padding: 8px;
+        font-size: 14px;
+    }
